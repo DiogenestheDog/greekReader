@@ -1,6 +1,6 @@
 import * as cheerio from 'cheerio';
 import axios from 'axios';
-import {readFile, writeFile} from 'fs/promises';
+import {writeFile} from 'fs/promises';
 
 const words = await getWikiList();
 writeToFile(words);
